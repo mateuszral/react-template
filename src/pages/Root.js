@@ -7,16 +7,14 @@ import MainTemplate from 'templates/MainTemplate';
 
 import Home from 'pages/Home';
 
-const Root = () => {
-  return (
-    <BrowserRouter>
-      <MainTemplate>
-        <Switch>
-          <Route exact path={routes.home} component={Home} />
-        </Switch>
-      </MainTemplate>
-    </BrowserRouter>
-  );
-};
+const Root = () => (
+  <BrowserRouter>
+    <MainTemplate>
+      <Switch>
+        <Route exact path={routes.home} component={Home} />
+      </Switch>
+    </MainTemplate>
+  </BrowserRouter>
+);
 
 export default Root;
