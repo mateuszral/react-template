@@ -5,7 +5,7 @@ import { routes } from 'routes';
 
 import MainTemplate from 'templates/MainTemplate';
 
-import Home from 'pages/Home';
+import Home from 'views/Home';
 
 const Root = () => (
   <BrowserRouter>
